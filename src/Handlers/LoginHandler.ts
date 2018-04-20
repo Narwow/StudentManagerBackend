@@ -19,6 +19,10 @@ export class LoginHandler {
     }
 
     public handleGetSecurityContext(request: Request, response: Response): void {
+        const OAuth = require('oauth');
+
+
+
         response.sendStatus(200);
     }
 
